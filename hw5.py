@@ -6,7 +6,7 @@ import json
 import pickle
 def main(filename):
     # read file into
-    f = open('i_have_a_dream.txt')
+    f = open(filename)
     lines = f.readlines()
 
     # declare a word list
